@@ -1,0 +1,15 @@
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\bin\Debug\net8.0\Try_ctach_finally_ausprobieren.exe
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\bin\Debug\net8.0\Try_ctach_finally_ausprobieren.deps.json
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\bin\Debug\net8.0\Try_ctach_finally_ausprobieren.runtimeconfig.json
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\bin\Debug\net8.0\Try_ctach_finally_ausprobieren.dll
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\bin\Debug\net8.0\Try_ctach_finally_ausprobieren.pdb
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.AssemblyInfoInputs.cache
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.AssemblyInfo.cs
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.csproj.CoreCompileInputs.cache
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.dll
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\refint\Try_ctach_finally_ausprobieren.dll
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.pdb
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.genruntimeconfig.cache
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\ref\Try_ctach_finally_ausprobieren.dll
+C:\Users\schra_2chnynk\source\repos\Try_ctach_finally_ausprobieren\obj\Debug\net8.0\Try_ctach_finally_ausprobieren.sourcelink.json

@@ -1,44 +1,64 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.ComponentModel.Design;
+using System.Linq.Expressions;
 
-namespace Exceptions
+namespace Try_ctach_finally_ausprobieren
 {
     internal class Program
     {
-        int yes = 1;
-        int no = 0;
         static void Main(string[] args)
         {
-            Console.WriteLine("Bitte geben sie die Farbe ihres Bugattis ein R=");
-            string r = Console.ReadLine();
-            Console.WriteLine("Bitte geben sie die Farbe ihres Bugattis ein G=");
-            string g = Console.ReadLine();
-            Console.WriteLine("Bitte geben sie die Farbe ihres Bugattis ein B=");
-            string b = Console.ReadLine();
-            Console.WriteLine("Mögen sie Loona? ( 1 für ja 0 für nein )");
-            string h = Console.ReadLine();
-
+            Nicht_Kopiert();
+        }
+        static void Rechnen_Kopiert()
+        {
+            string zahl = "Ja";
+            string zahlen = "Nein";
 
             try
             {
-                int Bugatti_Veron = Convert.ToInt32(r) + Convert.ToInt32(g) + Convert.ToInt32(b);
-                Console.WriteLine("Die Summe ist" + Bugatti_Veron);
+                int Ergebnis = Convert.ToInt32(zahl) / Convert.ToInt32(zahlen);
+                Console.WriteLine("Das Ergebnis ist:" + Ergebnis);
+                
             }
+
             catch
             {
-                Console.WriteLine("Falswe Antwourt deine Köpung findet Morgen statt uwu");
-            }
-            if (Convert.ToInt32(h) == 0)
-            {
-                Console.WriteLine("mögen sie Anthropomorphische Tiere (Beispiel Donald Duck)");
-                string i = Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("schlecht");
+                
+                Console.WriteLine("Keine korrekte Angabe: entweder Buchstaben, Sonderzeichen, zu hohe Zahlen oder durch 0 geteilt.");
             }
         }
-            
+        static void Nicht_Kopiert()
+        {
+            try
+            {
+                Console.WriteLine("Schreibe: Nein");
+                string Land = Console.ReadLine();
+                int Meer = 0;
+                if (Land == "Nein")
+                {
+                    Meer = 1;
+                }
+                Land = "Nein";
+                if (Meer == 1)
+                { 
+                    Console.WriteLine("Strike ´Wii music starts playing´");
+                } else if (Meer != 1) 
+                {
+                    throw new Exception();
+                }
+            }  
+            catch (Exception)
+            {
+                Console.WriteLine("Schreib gefälligst Nein!");
+            }
+            finally
+            {
+                Console.WriteLine("Dieses Programm mit Enter oder irgendeiner anderen Taste beenden");
+            }
+        }
+        static void Mandalorianer()
+        {
+
+        }   
     }
 }
-
